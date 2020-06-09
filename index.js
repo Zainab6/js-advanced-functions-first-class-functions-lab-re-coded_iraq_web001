@@ -15,7 +15,7 @@ function returnLastTwoDrivers(drivers){
 }
  selectingDrivers = [returnFirstTwoDrivers(),returnLastTwoDrivers()];
    
-function createFareMultiplier(){
+function createFareMultiplier(b){
 return function(a){
  return  a * b
 }
