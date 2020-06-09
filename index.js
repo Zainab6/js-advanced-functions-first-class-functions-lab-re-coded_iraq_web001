@@ -7,10 +7,10 @@ const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 
 
 function returnFirstTwoDrivers(drivers){
-   return drivers.slice(2,4);
+   return drivers.slice(0,2);
   }
 function returnLastTwoDrivers(drivers){
-  return drivers.slice(0,2);
+  return drivers.slice(2,4);
 
 }
  selectingDrivers = [returnFirstTwoDrivers(),returnLastTwoDrivers()];
