@@ -26,4 +26,3 @@ const fareTripler = createFareMultiplier(3);
 function selectDifferentDrivers(){
   return returnFirstTwoDrivers
 }
-}
