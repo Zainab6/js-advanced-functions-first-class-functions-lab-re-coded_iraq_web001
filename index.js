@@ -14,15 +14,9 @@ function returnLastTwoDrivers(drivers){
 }
  selectingDrivers = [returnFirstTwoDrivers(),returnLastTwoDrivers()];
    
-createFareMultiplier(a){
-return fareQuintupler(a){
-  a = a * 4;
-  return fareDoubler(a){
-    a = a * 2;
-    return fareTripler(a){
-      a = a * 3 ;
-      return a 
-    }
-  }
+function createFareMultiplier(b){
+return FareMultiplier(a){
+ return  a * b
 }
 }
+
