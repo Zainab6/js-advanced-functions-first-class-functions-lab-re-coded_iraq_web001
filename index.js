@@ -13,7 +13,7 @@ function returnLastTwoDrivers(drivers){
   return drivers.slice(2,4);
 
 }
- selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
+ const selectingDrivers = [returnFirstTwoDrivers,returnLastTwoDrivers];
    
 function createFareMultiplier(b){
 return function(a){
